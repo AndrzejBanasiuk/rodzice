@@ -60,12 +60,16 @@ function Page() {
             style={{ objectPosition: 'center bottom' }} 
           />
         </div>
-      <div className="relative grid md:grid-cols-[1fr,2fr] gap-8 my-16 items-stretch">
-        <Card className="m-0 flex flex-col justify-center">
-          <h2 className="text-2xl font-display text-foreground mb-3">Partnerstwo zamiast nadzoru</h2>
+      <div className="relative grid md:grid-cols-[1fr,480px] gap-8 my-16 items-stretch">
+       <Card className="m-0 w-full">
+          <h2 className="text-2xl font-display text-foreground mb-3">
+            Partnerstwo zamiast nadzoru
+          </h2>
           <p className="text-foreground/80 leading-relaxed">
-            Chcemy, żeby relacja z Wami opierała się na partnerstwie. Mega luz w temacie wyjść to dla nas najlepszy dowód na to, że widzicie w nas dojrzałych ludzi.
+            Chcemy, żeby relacja z Wami opierała się na partnerstwie. Mega luz w temacie wyjść 
+            to dla nas najlepszy dowód na to, że widzicie w nas dojrzałych ludzi.
           </p>
+        </Card>
         </Card>
         
       </div>
