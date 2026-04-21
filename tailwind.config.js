@@ -3,59 +3,29 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      borderRadius: {
-        lg: "var(--radius)",
-        md: "calc(var(--radius) - 2px)",
-        sm: "calc(var(--radius) - 4px)",
-      },
       colors: {
-        background: "oklch(var(--background) / <alpha-value>)",
-        foreground: "oklch(var(--foreground) / <alpha-value>)",
-        card: {
-          DEFAULT: "oklch(var(--card) / <alpha-value>)",
-          foreground: "oklch(var(--card-foreground) / <alpha-value>)",
-        },
-        popover: {
-          DEFAULT: "oklch(var(--popover) / <alpha-value>)",
-          foreground: "oklch(var(--popover-foreground) / <alpha-value>)",
-        },
+        background: "oklch(0.985 0.012 85)",
+        foreground: "oklch(0.22 0.03 150)",
         primary: {
-          DEFAULT: "oklch(var(--primary) / <alpha-value>)",
-          foreground: "oklch(var(--primary-foreground) / <alpha-value>)",
-        },
-        secondary: {
-          DEFAULT: "oklch(var(--secondary) / <alpha-value>)",
-          foreground: "oklch(var(--secondary-foreground) / <alpha-value>)",
-        },
-        muted: {
-          DEFAULT: "oklch(var(--muted) / <alpha-value>)",
-          foreground: "oklch(var(--muted-foreground) / <alpha-value>)",
+          DEFAULT: "oklch(0.38 0.07 155)",
+          foreground: "oklch(0.985 0.012 85)",
         },
         accent: {
-          DEFAULT: "oklch(var(--accent) / <alpha-value>)",
-          foreground: "oklch(var(--accent-foreground) / <alpha-value>)",
+          DEFAULT: "oklch(0.78 0.13 75)",
+          foreground: "oklch(0.22 0.04 150)",
         },
-        destructive: {
-          DEFAULT: "oklch(var(--destructive) / <alpha-value>)",
-          foreground: "oklch(var(--destructive-foreground) / <alpha-value>)",
+        muted: {
+          DEFAULT: "oklch(0.94 0.018 85)",
+          foreground: "oklch(0.48 0.03 150)",
         },
-        border: "oklch(var(--border) / <alpha-value>)",
-        input: "oklch(var(--input) / <alpha-value>)",
-        ring: "oklch(var(--ring) / <alpha-value>)",
+        card: "oklch(0.995 0.008 85)",
+        border: "oklch(0.88 0.02 85)",
       },
       fontFamily: {
-        display: ["var(--font-display)"],
-        sans: ["var(--font-body)"],
+        display: ['Playfair Display', 'serif'],
+        sans: ['Inter', 'sans-serif'],
       },
-      backgroundImage: {
-        'hero-gradient': "var(--gradient-hero)",
-        'warm-gradient': "var(--gradient-warm)",
-      },
-      boxShadow: {
-        soft: "var(--shadow-soft)",
-        elegant: "var(--shadow-elegant)",
-      }
     },
   },
-  plugins: [],
+  plugins: [], // PUSTE! To naprawi błąd "Cannot find module"
 }
