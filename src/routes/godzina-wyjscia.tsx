@@ -73,7 +73,6 @@ function Page() {
             to dla nas najlepszy dowód na to, że widzicie w nas dojrzałych ludzi.
           </p>
         </Card>
-        </Card>
         
       </div>
 
