@@ -24,7 +24,7 @@ function Page() {
       {/* --- ZAMIAST DZIECKA: WASZE ZDJĘCIE GRUPOWE --- */}
       <div className="w-full h-80 rounded-2xl overflow-hidden shadow-xl border border-border/50 -mt-8 mb-12 relative">
         <img 
-          src="/src/assets/dzieciak.jpg" 
+          src="/src/dzieciak.jpg" 
           alt="Nasza ekipa" 
           className="w-full h-full object-cover object-center"
         />
