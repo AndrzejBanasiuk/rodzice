@@ -109,7 +109,7 @@ function Index() {
       </section>
 
       <footer className="border-t border-border py-10 text-center">
-        <p className="mt-6 text-sm text-muted-foreground">Robert Ślęzak, dobry znajomy i przyjaciel Waszych dzieci</p>
+        <p className="text-sm text-muted-foreground italic font-light">Robert Ślęzak, dobry znajomy i przyjaciel Waszych dzieci</p>
         <p className="text-xs text-muted-foreground">Lubliniec · 2026</p>
       </footer>
     </div>
