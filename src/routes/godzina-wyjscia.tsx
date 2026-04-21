@@ -63,7 +63,7 @@ function Page() {
     />
     <p className="text-xs text-gray-400 mt-2 text-center">Fotografia - Błażej Dylla</p>
   </div>
-      <div className="relative grid md:grid-cols-[1fr,480px] gap-8 my-16 items-stretch">
+      <div className="relative grid md:grid-cols-[1fr,1fr] gap-8 my-16 items-stretch">
        <Card className="m-0 w-full">
           <h2 className="text-2xl font-display text-foreground mb-3">
             Partnerstwo zamiast nadzoru
