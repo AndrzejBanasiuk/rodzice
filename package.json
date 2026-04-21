@@ -3,13 +3,16 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "dev": "vite",
     "build": "vite build",
-    "dev": "vite"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "lucide-react": "^0.450.0"
+    "lucide-react": "latest",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.5.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.0",
