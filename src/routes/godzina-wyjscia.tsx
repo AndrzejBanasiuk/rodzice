@@ -76,6 +76,5 @@ function Page() {
         
       </div>
 
-    </PageShell>
   );
-}
+
