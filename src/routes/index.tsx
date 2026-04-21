@@ -64,10 +64,10 @@ function Index() {
       <section className="max-w-5xl mx-auto px-6 mb-16 w-full">
         <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-border/50">
           <img 
-            src="/assets/zdjecie_grupowe.jpg" 
-            alt="Nasza grupa" 
-            className="w-full h-auto object-cover max-h-[600px]"
-          />
+  src="/assets/zdjecie_grupowe.jpg" 
+  alt="Nasza grupa" 
+  className="w-full h-auto object-cover max-h-[600px]"
+/>
           <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none" />
         </div>
       </section>
