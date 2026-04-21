@@ -24,7 +24,7 @@ function Page() {
       {/* --- ZAMIAST DZIECKA: WASZE ZDJĘCIE GRUPOWE --- */}
       <div className="w-full h-80 rounded-2xl overflow-hidden shadow-xl border border-border/50 -mt-8 mb-12 relative">
         <img 
-          src="/src/assets/dzieciak.jpg" 
+          src="/src/dzieciak.jpg" 
           alt="Nasza ekipa" 
           className="w-full h-full object-cover object-center"
         />
@@ -61,7 +61,7 @@ function Page() {
         <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-elegant border border-border/50">
           <p className="text-xs text-gray-400 mt-4 mb-1">Fotografia - Błażej Dylla</p>
           <img 
-            src="/src/assets/ruda.jpg" 
+            src="/src/ruda.jpg" 
             alt="Zdjęcie" 
             className="w-full h-full object-cover" 
             style={{ objectPosition: 'center bottom' }} 
