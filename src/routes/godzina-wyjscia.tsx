@@ -51,6 +51,15 @@ function Page() {
       </Quote>
 
       {/* --- SEKACJA ZE ZDJĘCIEM RUDA.JPG - WYKADROWANE W DÓŁ --- */}
+      <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-elegant border border-border/50">
+          <p className="text-xs text-gray-400 mt-4 mb-1">Fotografia - Błażej Dylla</p>
+          <img 
+            src="/ruda.jpg" 
+            alt="Zdjęcie" 
+            className="w-full h-full object-cover" 
+            style={{ objectPosition: 'center bottom' }} 
+          />
+        </div>
       <div className="relative grid md:grid-cols-[1fr,280px] gap-8 my-16 items-stretch">
         <Card className="m-0 flex flex-col justify-center">
           <h2 className="text-2xl font-display text-foreground mb-3">Partnerstwo zamiast nadzoru</h2>
@@ -58,15 +67,7 @@ function Page() {
             Chcemy, żeby relacja z Wami opierała się na partnerstwie. Mega luz w temacie wyjść to dla nas najlepszy dowód na to, że widzicie w nas dojrzałych ludzi.
           </p>
         </Card>
-        <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-elegant border border-border/50">
-          <p className="text-xs text-gray-400 mt-4 mb-1">Fotografia - Błażej Dylla</p>
-          <img 
-            src="/ruda.jpg" 
-            alt="Zdjęcie" 
-            className="w-full h-full object-cover" 
-            style={{ objectPosition: 'center' }} 
-          />
-        </div>
+        
       </div>
 
     </PageShell>
