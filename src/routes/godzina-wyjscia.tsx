@@ -64,7 +64,7 @@ function Page() {
             src="/ruda.jpg" 
             alt="Zdjęcie" 
             className="w-full h-full object-cover" 
-            style={{ objectPosition: 'center bottom' }} 
+            style={{ objectPosition: 'center' }} 
           />
         </div>
       </div>
