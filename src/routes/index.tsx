@@ -105,13 +105,11 @@ function Index() {
           <p className="font-display italic text-2xl text-foreground/80 leading-relaxed">
             „Wasze dzieci są mądre, dojrzałe i zasługują na zaufanie. A ja jestem tu po to, żeby Wam to udowodnić."
           </p>
-          <p className="mt-6 text-sm text-muted-foreground">
-            — Robert Ślęzak, dobry znajomy i przyjaciel Waszych dzieci
-          </p>
         </div>
       </section>
 
       <footer className="border-t border-border py-10 text-center">
+        <p className="mt-6 text-sm text-muted-foreground">Robert Ślęzak, dobry znajomy i przyjaciel Waszych dzieci</p>
         <p className="text-xs text-muted-foreground">Lubliniec · 2026</p>
       </footer>
     </div>
