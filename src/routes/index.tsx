@@ -61,18 +61,16 @@ function Index() {
         </div>
       </section>
 
-      {/* --- DODANE ZDJĘCIE GRUPOWE --- */}
       <section className="max-w-5xl mx-auto px-6 mb-16 w-full">
         <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-border/50">
           <img 
-            src="/src/assets/zdjecie_grupowe.jpg" 
+            src="/assets/zdjecie_grupowe.jpg" 
             alt="Nasza grupa" 
             className="w-full h-auto object-cover max-h-[600px]"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none" />
         </div>
       </section>
-      {/* --- KONIEC SEKCJI ZDJĘCIA --- */}
 
       <section className="max-w-5xl mx-auto px-6 pb-24 w-full">
         <div className="grid md:grid-cols-2 gap-4">
